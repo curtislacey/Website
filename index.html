@@ -6,19 +6,26 @@
     <title>Curtis Lacey</title>
 
 <style>
-    @font-face { font-family: Curtisfont; src: url("fonts/Curtisfont-Regular"); } 
+    @font-face { 
+            font-family: Curtisfont; 
+            src: url(fonts/Curtisfont-Regular.otf); 
+            src: url(fonts/Curtisfont-Regular.otf?#iefix) format('embedded-opentype'),      
+                url(fonts/Curtisfont-Regular.woff) format('woff'),
+                url(fonts/Curtisfont-Regular.ttf) format('truetype'),
+                url(fonts/Curtisfont-Regular.svg#Overseer) format('svg');
+        } 
       h1 {
          font-family: Curtisfont;
          color: white;
          text-align: center;
-         font-size: 1250%;
+         font-size: 1000%;
       }
 
     .bodytext {
         text-align: center;
         color:white;
         font-family: Curtisfont;
-        font-size: 400%;
+        font-size: 350%;
         }
 
     a:link, a:visited {
@@ -38,20 +45,27 @@
 </head>
 
 <body style="background-color:black;">
-    <h1>Curtis Lacey </h1>
+    <h1 style = "margin-top: 10px;">Curtis Lacey </h1>
 
     <div class = "bodytext">
-        <a style = "font-size: 200%;" href="default.asp" target="_blank">About</a>
 
-        <br>
-
-        <a style = "display:inline; position: relative; bottom: 200px; font-size: 200%;" href="default.asp" target="_blank">Games</a>
-
-        <img src="images/grupper.png" alt = "grupper" style = "width: 563px; height: 375px;">
-
-        <a style = "display:inline; position: relative; bottom: 200px; font-size: 200%;" href="default.asp" target="_blank">Music</a>
-
-        <a style = "font-size: 200%;" href="default.asp" target="_blank">Other</a>
+        <table style="width:50%; margin-left: auto; margin-right: auto;">
+            <tr>
+              <th></th>
+              <td><a style = "font-size: 200%;" href="default.asp" target="_blank">About</a></td>
+              <th></th>
+            </tr>
+            <tr>
+              <td><a style = "font-size: 200%;" href="default.asp" target="_blank">Games</a></td>
+              <td><img src="images/grupper.png" alt = "grupper" style = "width: 450px; height: 300px;"></td>
+              <td><a style = "font-size: 200%;" href="default.asp" target="_blank">Music</a></td>
+            </tr>
+            <tr>
+              <th></th>
+              <td><a style = "font-size: 200%;" href="default.asp" target="_blank">Other</a></td>
+              <th></th>
+            </tr>
+          </table>
     
         <hr>
 
