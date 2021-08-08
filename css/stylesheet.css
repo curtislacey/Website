@@ -27,13 +27,23 @@ margin-left: auto;
 margin-right: auto;
 }
 
-.barrier{
+.barrier {
     display: block; 
     margin-left: auto; 
     margin-right: auto;
     text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
+}
+
+.imageparent {
+    position: relative
+}
+
+.imageframe {
+    position: absolute;
+    top: 0;
+    left: 125px;
 }
 
 a:link, a:visited {
