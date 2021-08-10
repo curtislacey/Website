@@ -4,8 +4,18 @@ h1 {
  text-align: center;
  font-size: 1000%;
  margin-top: 10px;
+ margin-left: 0px;
+ margin-right: 0px;
  font-weight: normal;
 }
+
+h2 {
+    font-family: Curtisfont;
+    color: white;
+    text-align: center;
+    font-size: 200%;
+    font-weight: normal;
+   }
 
 body {
     background-color: black;
@@ -45,10 +55,6 @@ margin-right: auto;
     position: absolute;
     top: 0;
     left: 12.5%;
-}
-
-.imageflip {
-    -webkit-box-reflect: right;
 }
 
 a:link, a:visited {
