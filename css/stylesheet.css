@@ -57,6 +57,30 @@ margin-right: auto;
     left: 12.5%;
 }
 
+#scroll {
+    width:1000px;
+    height:200px;
+    margin:100px auto;
+    overflow:auto;
+    white-space:nowrap;
+    box-shadow:0 0 10px #000;
+}
+
+#scroll img {
+    margin:20px 10px 0 10px;
+}
+
+/* Width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+/* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: white;
+  }
+
 a:link, a:visited {
 color: white;
 padding-right: 25px;
