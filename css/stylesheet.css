@@ -63,7 +63,7 @@ margin-right: auto;
     margin:100px auto;
     overflow:auto;
     white-space:nowrap;
-    box-shadow:0 0 10px #000;
+    border:2px solid white;
 }
 
 #scroll img {
