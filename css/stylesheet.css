@@ -94,6 +94,10 @@ a:hover, a:active {
     color: rgb(175, 0, 0);
 }
 
+.img-link:hover {
+    filter: brightness(5%) sepia(100) saturate(100) hue-rotate(25deg);
+}
+
 .shake-image:hover {
     animation: shake 0.5s;
     animation-iteration-count: infinite;
