@@ -1,58 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<link rel="stylesheet" href="css/stylesheet.css"> <!--Style Sheet-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin Sketch"> <!--Cabin Sketch Font-->
+
+<style>
+  h1, h2, h3, p{ 
+    font-family: "Cabin Sketch", sans-serif; /* Set Font */
+    text-align: center;
+    color: white;
+  }
+    
+</style>
+
 <head>
-
     <title>Curtis Lacey</title>
-
-    <style>
-        @font-face { 
-            font-family: Curtisfont; 
-            src: url("fonts/curtisfont-regular-webfont.eot");
-            src: url("fonts/curtisfont-regular-webfont.woff") format("woff"),
-            url("fonts/curtisfont-regular-webfont.otf") format("opentype"),
-            url("fonts/curtisfont-regular-webfont.svg#filename") format("svg");
-            font-weight:normal;
-            font-style:normal;
-        } 
-    </style>
-
-    <link rel="stylesheet" href="css/stylesheet.css">
-
 </head>
 
+<header>
+  <h1>Curtis Lacey</h1>
+</header>
+
 <body>
-    <h1>Curtis Lacey</h1>
+  
+  <div class = "bodytext">
+   
+    <!--Links-->
+    <a href = "https://www.instagram.com/curtislacey01/" target = "_blank"> <img class="img-link" src="images/instagram.png" alt = "instagram"> </a>
+    <a href = "https://curtis-lacey.itch.io/" target = "_blank"> <img class="img-link" src="images/itch.png" alt = "itch"> </a>
+    <a href = "https://www.tiktok.com/@curt_creates?is_from_webapp=1&sender_device=pc" target = "_blank"> <img class="img-link" src="images/tiktok.png" alt = "tiktok"> </a>
+    <a href = "https://twitter.com/curtislacey01" target = "_blank"> <img class="img-link" src="images/twitter.png" alt = "twitter"> </a>
+    <a href = "https://www.youtube.com/channel/UCGuPZBfsCRAYVK1C5scCU-A" target = "_blank"> <img class="img-link" src="images/youtube.png" alt = "youtube"> </a>
 
-    <div class = "bodytext">
+    <!--See/Hear-->
+    <div class = "row">
+      <div class = "column">
+        <h2>See!</h2>
 
-      <table>
-        <tr>
-          <th></th>
-          <td><a style = "font-size: 200%;" href="about.html" target="_self">About</a></td>
-          <th></th>
-        </tr>
-        <tr>
-          <td><a style = "font-size: 200%;" href="games.html" target="_self">Games</a></td>
-          <td><img class="shake-image" src="images/grupper.png" alt = "grupper" style = "width: 450px; height: 300px;"></td>
-          <td><a style = "font-size: 200%;" href="music.html" target="_self">Music</a></td>
-        </tr>
-        <tr>
-          <th></th>
-          <td><a style = "font-size: 200%;" href="other.html" target="_self">Other</a></td>
-          <th></th>
-        </tr>
-      </table>
+        <!--Current Game-->
+        <div class = "imageparent">
+          <img src="images/SPScreen2.png" alt = "SP" style = "width: 100%;">
+
+          <div class = "imageframe">
+              <img src="images/frame.png" alt = "frame" style = "width: 100%;">
+          </div>
+        </div>
+
+        <h3>Sleep Pursuit</h3>
+
+        <a style = "display: inline-block;" href="https://curtis-lacey.itch.io/sleep-pursuit" target="_blank">Click Me!</a>
+
+      </div>
+
+      <!--Grupper-->
+      <div class = "column">
+        <div class = "grupper">
+          <img src="images/grupper.png" alt = "grupper" style = "width: 100%;">
+        </div>
+      </div>
+
+      <div class = "column">
+        <h2>Hear!</h2>
+
+        <!--Current Music-->
+        <div class = "imageparent">
+          <img src="images/ManticoreW.png" alt = "Manticore" style = "width: 100%;">
+
+          <div class = "imageframe">
+              <img src="images/frame.png" alt = "frame" style = "width: 100%;">
+          </div>
+        </div>
+
+        <h3>Manticore</h3>
+
+        <audio id = "player" controls>
+          <source src="audio/Manticore Recording.mp3" type="audio/mpeg">
+        </audio>
         
-      <br>
-
-        <a href = "https://www.instagram.com/curtislacey01/" style = "display: inline;" target = "_blank"> <img class="img-link" src="images/instagram.png" alt = "instagram"> </a>
-        <a href = "https://curtis-lacey.itch.io/" style = "display: inline;" target = "_blank"> <img class="img-link" src="images/itch.png" alt = "itch"> </a>
-        <a href = "https://www.tiktok.com/@curt_creates?is_from_webapp=1&sender_device=pc" style = "display: inline;" target = "_blank"> <img class="img-link" src="images/tiktok.png" alt = "tiktok"> </a>
-        <a href = "https://twitter.com/curtislacey01" style = "display: inline;" target = "_blank"> <img class="img-link" src="images/twitter.png" alt = "twitter"> </a>
-        <a href = "https://www.youtube.com/channel/UCGuPZBfsCRAYVK1C5scCU-A" style = "display: inline;" target = "_blank"> <img class="img-link" src="images/youtube.png" alt = "youtube"> </a>
-
+      </div>
     </div>
 
+    <!--Old Stuff-->
+    <a style = "display: block-inline; padding-top: 10%;" href="music.html" target="_self">Scores can be found here</a>
+
+    <div class = "barrier">
+      <img src="images/barrier.png" alt = "barrier" style = "width: 100%;">
+    </div>
+
+    <!--About-->
+    <div class = "imageparent">
+      <img src="images/sloth.png" alt = "me" style = "width: 50%;">
+
+      <div class = "imageframe">
+          <img src="images/frame.png" alt = "frame" style = "width: 50%">
+      </div>
+    </div>
+
+    <h3>About</h3>
+
+    <p>Curtis is a 23 year old Ohio based composer, musician, game developer and artist.
+      He has been creating music and videogames for over 13 years.
+      Curtis graduated from the University of Akron in 2022 with two bachelor's degrees in music composition and woodwind performance.
+      While primarily trained in classical clarinet performance, he additionally plays keyboard, guitar and bass.
+      When he's not writing music or code, Curtis enjoys drawing, watching movies, and relaxing with his cat Rousseau.
+    </p>
+
+    <img src="images/longhead.png" alt = "lh" style = "width: 10%;">
+    <img src="images/tallhead.png" alt = "th" style = "width: 10%;">
+
+  </div>
 </body>
+
 </html>
